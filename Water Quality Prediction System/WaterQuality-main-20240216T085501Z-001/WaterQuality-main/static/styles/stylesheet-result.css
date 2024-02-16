@@ -1,0 +1,94 @@
+/* Body styles */
+body {
+  
+font-family: verdana;
+background-repeat: no-repeat;
+background-size: cover;
+animation: loadtransition 2s;
+background-color: #f2f2f2;
+background-image:url('img1.jpg');
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+}
+
+/* Header styles */
+.name1 {
+     display: inline-block;
+     width: auto;
+     color:white;
+     position: absolute;
+     font-size: 67px;
+     font-weight: bold;
+     margin: -0.2em 1em;
+     color: white;
+     font-family: cursive;
+     padding: 0px 0px 0px 100px;
+     transition: all 1s;
+     text-align: center;
+}
+
+/* Main section styles */
+.context1 {
+  display: inline-block;
+  width: 40%;
+  color: black;
+  position: absolute;
+  margin: 7em 4em;
+  font-size: 20px;
+  font-family: cursive;
+  background-color: rgba(255,255,255,0.7);
+  padding: 50px;
+  border-radius: 15px;
+  transition: all 1s;
+}
+
+.context1 h1 {
+  color: #2980b9;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.context1 p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.context1 a {
+  color: #2980b9;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+div.context1:hover{
+  background-color:grey;
+  color:white;
+  padding: 60px;
+  margin: 8em 4em 1em ;
+}
+
+.btn {
+  background-color: #2980b9;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #2980b9;
+  border: 2px solid #2980b9;
+}
+div.name1:hover{
+  letter-spacing: 2px;
+  color:aquamarine;
+}

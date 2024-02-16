@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/stylesheet-result.css') }}">
+      <title>Water Quality Result</title>
+      <style>
+         .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+         }
+         .button:hover {
+            background-color: #3e8e41;
+            cursor: pointer;
+         }
+         .center {
+            display: flex;
+            justify-content: center;
+         }
+         
+      </style>
+   </head>
+   <body>
+      <div class="name1">
+         Water Quality
+      </div>
+      <div class="context1">
+         <h1>Result</h1>
+         <p>Given water sample  {{ result }}</p>
+         <div class="center">
+            <a href="{{ url_for('home') }}" class="button">Go back to Home Page</a>
+         </div>
+      </div>
+   </body>
+</html>
